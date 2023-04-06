@@ -1,0 +1,24 @@
+name: COGS118ASp23
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.*
+  - scikit-learn=1.2.*
+  - statsmodels=0.13.*
+  - pytorch=1.13.*
+  - torchvision=0.13.*
+  - otter-grader=4.3.*
+  - jupyterlab
+  - pandas
+  - matplotlib
+  - seaborn
+  - pillow
+  - pip
+  - pip:
+    - git+https://github.com/COGS118A/quiz_module.git
+  
+
+
+
