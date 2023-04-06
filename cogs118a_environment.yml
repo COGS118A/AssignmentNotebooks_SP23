@@ -9,7 +9,6 @@ dependencies:
   - statsmodels=0.13.*
   - pytorch=1.13.*
   - torchvision=0.13.*
-  - otter-grader=4.3.*
   - jupyterlab
   - pandas
   - matplotlib
@@ -18,6 +17,7 @@ dependencies:
   - pip
   - pip:
     - git+https://github.com/COGS118A/quiz_module.git
+    - git+https://github.com/scott-yj-yang/otter-grader.git
   
 
 
