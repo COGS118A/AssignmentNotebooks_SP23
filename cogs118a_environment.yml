@@ -9,6 +9,7 @@ dependencies:
   - statsmodels=0.13.*
   - pytorch=1.13.*
   - torchvision=0.13.*
+  - git
   - jupyterlab
   - pandas
   - matplotlib
