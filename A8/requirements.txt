@@ -1,4 +1,0 @@
-otter-grader
-git+https://github.com/COGS118A/quiz_module.git
-torch
-torchvision
