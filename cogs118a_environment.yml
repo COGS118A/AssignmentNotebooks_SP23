@@ -5,10 +5,10 @@ channels:
   - defaults
 dependencies:
   - python=3.9.*
-  - scikit-learn=1.2.*
-  - statsmodels=0.13.*
-  - pytorch=1.13.*
-  - torchvision=0.13.*
+  - scikit-learn==1.2.*
+  - statsmodels==0.13.*
+  - torch==1.12.1
+  - torchvision==0.13.*
   - git
   - jupyterlab
   - pandas
@@ -18,7 +18,7 @@ dependencies:
   - pip
   - pip:
     - git+https://github.com/COGS118A/quiz_module.git
-    - git+https://github.com/scott-yj-yang/otter-grader.git
+    - git+https://github.com/ucbds-infra/otter-grader.git
   
 
 
